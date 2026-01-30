@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BezelBud")(type "KiCad")(uri "${GITHUB}/Personal/Bezel_Bud/PCB/BezelBud/BezelBud.kicad_sym")(options "")(descr ""))
+)
