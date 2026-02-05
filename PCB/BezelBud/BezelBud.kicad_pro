@@ -277,28 +277,35 @@
         "line_style": 0,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 153, 0)"
+      },
+      {
+        "line_style": 0,
+        "name": "I2S",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 255, 255)"
       },
       {
         "line_style": 0,
         "name": "PROG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 255)"
       },
       {
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 0)"
       },
       {
         "line_style": 0,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 255, 0)"
       }
     ],
@@ -330,15 +337,15 @@
       },
       {
         "netclass": "Power",
-        "pattern": "VDD*"
-      },
-      {
-        "netclass": "Power",
         "pattern": "GND"
       },
       {
         "netclass": "Power",
-        "pattern": "/VLDO"
+        "pattern": "V*"
+      },
+      {
+        "netclass": "I2S",
+        "pattern": "/I2S*"
       }
     ]
   },
