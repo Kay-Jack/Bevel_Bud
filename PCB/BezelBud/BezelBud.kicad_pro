@@ -346,6 +346,10 @@
       {
         "netclass": "I2S",
         "pattern": "/I2S*"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VLDO"
       }
     ]
   },
