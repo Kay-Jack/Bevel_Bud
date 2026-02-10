@@ -9440,7 +9440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sensor_Audio:POM-2244P-C3310-2-R"
 			(at 257.81 143.51 90)
 			(effects
 				(font
@@ -10571,7 +10571,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sensor_Audio:POM-2244P-C3310-2-R"
 			(at 246.38 163.83 90)
 			(effects
 				(font
@@ -11764,7 +11764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_HC49-SD"
 			(at 257.81 182.88 0)
 			(effects
 				(font
