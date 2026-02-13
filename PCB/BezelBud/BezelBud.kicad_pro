@@ -546,6 +546,10 @@
       {
         "netclass": "I2S",
         "pattern": "/MIC*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "VCC"
       }
     ]
   },
