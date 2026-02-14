@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.28
         }
       ],
       "drc_exclusions": [],
@@ -516,11 +521,17 @@
       },
       {
         "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.28,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 255)",
         "priority": 1,
         "schematic_color": "rgb(0, 255, 255)",
-        "track_width": 0.28
+        "track_width": 0.28,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
