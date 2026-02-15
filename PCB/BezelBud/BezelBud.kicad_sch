@@ -5617,7 +5617,7 @@
 	)
 	(text "MD6/5/2 = 32dB gain on CH4\nMD4 = I2S format\nMD0/1 = Slave Mode Auto Detect Fs"
 		(exclude_from_sim no)
-		(at 436.88 205.74 0)
+		(at 383.54 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8944,7 +8944,7 @@
 		(cells
 			(table_cell "MD0"
 				(exclude_from_sim no)
-				(at 427.99 184.15 0)
+				(at 374.65 187.96 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8961,7 +8961,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 436.88 184.15 0)
+				(at 383.54 187.96 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8978,7 +8978,7 @@
 			)
 			(table_cell "MD1"
 				(exclude_from_sim no)
-				(at 427.99 186.69 0)
+				(at 374.65 190.5 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8995,7 +8995,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 436.88 186.69 0)
+				(at 383.54 190.5 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9012,7 +9012,7 @@
 			)
 			(table_cell "MD2"
 				(exclude_from_sim no)
-				(at 427.99 189.23 0)
+				(at 374.65 193.04 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9029,7 +9029,7 @@
 			)
 			(table_cell "HIGH"
 				(exclude_from_sim no)
-				(at 436.88 189.23 0)
+				(at 383.54 193.04 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9046,7 +9046,7 @@
 			)
 			(table_cell "MD3"
 				(exclude_from_sim no)
-				(at 427.99 191.77 0)
+				(at 374.65 195.58 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9063,7 +9063,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 436.88 191.77 0)
+				(at 383.54 195.58 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9080,7 +9080,7 @@
 			)
 			(table_cell "MD4"
 				(exclude_from_sim no)
-				(at 427.99 194.31 0)
+				(at 374.65 198.12 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9097,7 +9097,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 436.88 194.31 0)
+				(at 383.54 198.12 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9114,7 +9114,7 @@
 			)
 			(table_cell "MD5"
 				(exclude_from_sim no)
-				(at 427.99 196.85 0)
+				(at 374.65 200.66 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9131,7 +9131,7 @@
 			)
 			(table_cell "LOW"
 				(exclude_from_sim no)
-				(at 436.88 196.85 0)
+				(at 383.54 200.66 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9148,7 +9148,7 @@
 			)
 			(table_cell "MD6"
 				(exclude_from_sim no)
-				(at 427.99 199.39 0)
+				(at 374.65 203.2 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9165,7 +9165,7 @@
 			)
 			(table_cell "HIGH"
 				(exclude_from_sim no)
-				(at 436.88 199.39 0)
+				(at 383.54 203.2 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
