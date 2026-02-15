@@ -26,6 +26,10 @@ Take a webcam -> remove the camera -> improve the microphone.
 
 ![Font layout](Media/font_layout.png)
 
+### Schematic
+
+![Schematic](Media/schematic.png)
+
 
 ## Firmware / Electronics
 
