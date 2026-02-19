@@ -3,15 +3,15 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
-        "apply_defaults_to_fp_text": false,
+        "apply_defaults_to_fp_fields": true,
+        "apply_defaults_to_fp_shapes": true,
+        "apply_defaults_to_fp_text": true,
         "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "copper_line_width": 0.15,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3,
+        "copper_text_thickness": 0.15,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 4,
@@ -24,16 +24,16 @@
           "text_position": 0,
           "units_format": 0
         },
-        "fab_line_width": 0.1,
+        "fab_line_width": 0.2,
         "fab_text_italic": false,
-        "fab_text_size_h": 1.0,
-        "fab_text_size_v": 1.0,
+        "fab_text_size_h": 0.8,
+        "fab_text_size_v": 0.8,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.1,
+        "other_line_width": 0.2,
         "other_text_italic": false,
-        "other_text_size_h": 1.0,
-        "other_text_size_v": 1.0,
+        "other_text_size_h": 0.8,
+        "other_text_size_v": 0.8,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
@@ -41,11 +41,11 @@
           "height": 1.27,
           "width": 2.54
         },
-        "silk_line_width": 0.1,
+        "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.8,
+        "silk_text_size_v": 0.8,
+        "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.25
@@ -133,17 +133,17 @@
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.22,
         "min_microvia_diameter": 0.6,
         "min_microvia_drill": 0.3,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.6,
+        "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
@@ -231,8 +231,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.6,
-          "drill": 0.3
+          "diameter": 0.5,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -475,7 +475,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "BevelBud"
+    ]
   },
   "meta": {
     "filename": "BezelBud.kicad_pro",
@@ -504,20 +506,20 @@
       {
         "name": "GND",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(194, 194, 194)"
-      },
-      {
-        "name": "I2S",
-        "pcb_color": "rgb(0, 255, 0)",
-        "priority": 2,
-        "schematic_color": "rgb(0, 255, 0)"
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 3,
         "schematic_color": "rgb(255, 153, 0)"
+      },
+      {
+        "name": "SAI",
+        "pcb_color": "rgb(255, 47, 242)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 47, 242)"
       },
       {
         "clearance": 0.2,
@@ -527,7 +529,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 255, 255)",
         "track_width": 0.28,
         "via_diameter": 0.6,
@@ -549,20 +551,24 @@
         "pattern": "GND"
       },
       {
-        "netclass": "I2S",
-        "pattern": "/I2*"
-      },
-      {
         "netclass": "USB",
         "pattern": "/US*"
       },
       {
-        "netclass": "I2S",
+        "netclass": "Default",
         "pattern": "/MIC*"
       },
       {
         "netclass": "PWR",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "SAI",
+        "pattern": "/SAI*"
+      },
+      {
+        "netclass": "SAI",
+        "pattern": "/MIC*"
       }
     ]
   },
