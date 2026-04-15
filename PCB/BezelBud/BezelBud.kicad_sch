@@ -11350,6 +11350,15 @@
 				(hide yes)
 			)
 		)
+		(property "Supplier" "https://www.lcsc.com/product-detail/C2667026.html?s_z=n_PCM1861DBT"
+			(at 280.67 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "5f9843ea-4af0-4f35-ab9d-bc06679a3faa")
 		)
