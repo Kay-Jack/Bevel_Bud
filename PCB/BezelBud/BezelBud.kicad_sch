@@ -5797,7 +5797,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 186.69) (xy 344.17 184.15)
+			(xy 344.17 184.15) (xy 344.17 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5837,7 +5837,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 186.69) (xy 208.28 186.69)
+			(xy 190.5 186.69) (xy 212.09 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6377,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 186.69) (xy 237.49 186.69)
+			(xy 219.71 186.69) (xy 237.49 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6596,7 +6596,7 @@
 		(uuid "0c8d8133-47c0-4cd2-bb72-e3d40621f0c8")
 	)
 	(label "SAI1_DATA"
-		(at 160.02 191.77 180)
+		(at 153.67 191.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6606,7 +6606,7 @@
 		(uuid "131d48e7-0bc6-4096-9bb2-fa5d86d515c1")
 	)
 	(label "MIC2_DATA_TERM"
-		(at 218.44 186.69 0)
+		(at 220.98 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6686,12 +6686,12 @@
 		(uuid "95676a8a-4511-414c-a33e-a486a084eb0b")
 	)
 	(label "R_A"
-		(at 344.17 186.69 180)
+		(at 344.17 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "97e3f405-6077-4bc8-9fe8-fe89c4f70eca")
 	)
@@ -7305,7 +7305,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 212.09 186.69 90)
+		(at 215.9 186.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7313,7 +7313,7 @@
 		(dnp no)
 		(uuid "1a7331c5-6559-4559-94ba-4bca3084e5a1")
 		(property "Reference" "R5"
-			(at 212.09 189.23 90)
+			(at 215.9 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7321,7 +7321,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 212.09 191.77 90)
+			(at 215.9 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7329,7 +7329,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 212.09 188.468 90)
+			(at 215.9 188.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 212.09 186.69 0)
+			(at 215.9 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7347,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 212.09 186.69 0)
+			(at 215.9 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10397,7 +10397,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 344.17 190.5 180)
+		(at 344.17 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10406,7 +10406,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac92a4ab-ae9f-48cb-bfd9-b918931cf0a1")
 		(property "Reference" "R7"
-			(at 341.63 191.7701 0)
+			(at 346.71 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +10415,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 341.63 189.2301 0)
+			(at 346.71 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10424,7 +10424,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 345.948 190.5 90)
+			(at 342.392 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +10433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 190.5 0)
+			(at 344.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,7 +10442,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 344.17 190.5 0)
+			(at 344.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11368,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 344.17 180.34 270)
+		(at 344.17 190.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11376,7 +11376,7 @@
 		(dnp no)
 		(uuid "c467aa50-fd9d-46b9-a217-bb018fdeaf64")
 		(property "Reference" "D1"
-			(at 340.36 180.0226 90)
+			(at 347.98 190.8174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11385,7 +11385,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 340.36 177.4826 90)
+			(at 347.98 193.3574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +11394,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 344.17 180.34 0)
+			(at 344.17 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11403,7 +11403,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 180.34 0)
+			(at 344.17 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,7 +11412,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 344.17 180.34 0)
+			(at 344.17 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11421,7 +11421,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 344.17 180.34 0)
+			(at 344.17 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11430,7 +11430,7 @@
 			)
 		)
 		(property "Colour" "Red"
-			(at 346.71 182.88 90)
+			(at 341.63 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
