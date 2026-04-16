@@ -1,4 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "BevelBud")(type "KiCad")(uri "${GITHUB}/Personal/Bezel_Bud/PCB/BezelBud/BezelBud.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "BevelBud") (type "KiCad") (uri "${GITHUB}/Personal/Bezel_Bud/PCB/BezelBud/BezelBud.pretty") (options "") (descr ""))
+	(lib (name "BezelBud") (type "KiCad") (uri "${GITHUB}/Personal/Bezel_Bud/PCB/BezelBud/BezelBud.pretty") (options "") (descr ""))
+	(lib (name "SOIC 8 Debug Connector") (type "KiCad") (uri "C:/Users/Jack Kay/OneDrive/Documents/KiCad/10.0/footprints/SOIC 8 Debug Connector.pretty") (options "") (descr ""))
 )
