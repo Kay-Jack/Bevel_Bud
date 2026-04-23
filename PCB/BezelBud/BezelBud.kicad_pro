@@ -800,8 +800,12 @@
         "uuid": "ea52eff0-b87d-4555-a937-35a2be025cf5"
       }
     ],
-    "used_designators": "J2-3,#PWR19,#PWR37-38",
-    "variants": []
+    "used_designators": "R10,J2-3,#PWR19,#PWR37-38,JP1",
+    "variants": [
+      {
+        "name": "VCUT Board"
+      }
+    ]
   },
   "sheets": [
     [
